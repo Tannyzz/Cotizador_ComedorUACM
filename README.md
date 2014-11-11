@@ -1,4 +1,4 @@
-Cotizador_ComedorUACM v.2.0alpha
+Cotizador_ComedorUACM v.2.5.1alpha
 =====================
 
 Software creado por Alejandro Plancarte y Hans Gonzalez, estudiantes de la carrera de Ingeniería de Software Campus Cuautepec.

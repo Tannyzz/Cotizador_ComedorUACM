@@ -1,5 +1,3 @@
-
-
 package cotizadorcuacm;
 
 import javax.swing.ImageIcon;
@@ -8,7 +6,9 @@ import javax.swing.JOptionPane;
 
 public class CotizadorCUACM extends JFrame{
     
-    public static void main(String[] args) {
+    
+      
+    public static void main(String[] args) {       
        
         JFrame frame = new JFrame();
         JOptionPane.showMessageDialog(frame,
@@ -19,11 +19,13 @@ public class CotizadorCUACM extends JFrame{
         
         String numeroE = JOptionPane.showInputDialog("Introduce el número de productos a calcular");
         int num = Integer.parseInt(numeroE);
-                
+        
         Principal miVentana = new Principal(num);
         miVentana.setBounds(200, 200, 600, 600);
         miVentana.setVisible(true);
         miVentana.setResizable(false);
+        miVentana.setDefaultCloseOperation(miVentana.EXIT_ON_CLOSE);
+        
     }
     
 }
